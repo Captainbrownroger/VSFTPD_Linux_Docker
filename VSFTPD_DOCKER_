@@ -50,4 +50,6 @@ local_root=/home/$USER/ftp
 
 -service vsftpd restart
 
-.//////////////DOWNLOAD FILEZILA AND CHECK ON THE SAME WITH CONTAINER IP .//////////////
+//////////////DOWNLOAD FILEZILA AND CHECK ON THE SAME WITH CONTAINER IP .//////////////
+//////////////TO SEND FILE FROM ROUTER ////////////////////////
+copy running-config ftp://<username>:<credential>@<server_ip>/file/<destination_file_name>
